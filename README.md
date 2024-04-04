@@ -9,19 +9,6 @@ The toll calculator system allows users to calculate toll charges based on the t
 
 ## Object-Oriented Design
 
-The project follows an object-oriented design approach, with the following key components.
-
-- **Vehicle Class**: An abstract class representing a generic vehicle, with attributes such as the number of persons and toll charges.
-- **Concrete Vehicle Classes**: Subclasses of the Vehicle class representing different types of vehicles, such as TwoWheeler, ThreeWheeler, FourWheeler, and HeavyVehicle.
-- **Main Class**: The Main class serves as the entry point to the program, allowing users to select a vehicle type and input the number of persons to calculate the toll charges.
-
-- **Abstraction**: We made a basic model for all vehicles, focusing on common things they have, like the number of people and the toll cost.
-- **Inheritance**: We built specific vehicle types, like cars and trucks, by starting with the basic vehicle model and adding more details.
-- **Polymorphism**: Each vehicle type can calculate its toll differently, depending on its specific rules.
-- **Encapsulation**: We made sure each vehicle's details are kept private and only accessed in a controlled way.
-
-## Object-Oriented Design
-
 The project follows an object-oriented design approach, with the following key components:
 
 - [Vehicle Class](#vehicle-class): An abstract class representing a generic vehicle, with attributes such as the number of persons and toll charges.
@@ -79,7 +66,9 @@ Total toll is: 20
 
 ## Technologies Used
 
-- Core Java
+- **Java**: The project is written in Java.
+- **IDE (Integrated Development Environment)**: Eclipse was used as our IDE for writing and managing Java code.
+- **Scanner Class**: Utilized to obtain user input from the console.
 - Object-Oriented Programming (OOP)
 
 ## Contributing
