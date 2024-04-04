@@ -29,7 +29,6 @@ Vehicle (Abstract Class)
 ├── FourWheeler (Class)
 │
 └── HeavyVehicle (Class)
-
 In this hierarchy:
 
 - **Vehicle (Abstract Class):** Represents a generic vehicle. It contains common attributes and methods shared by all types of vehicles, such as `no_of_persons`, `total_toll`, `basic_toll`, and the abstract method `callToll()`.
