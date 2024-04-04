@@ -15,6 +15,14 @@ The project follows an object-oriented design approach, with the following key c
 
 The project defines a hierarchy of vehicle classes, with each class representing a specific type of vehicle. The hierarchy is as follows:
 
+In this hierarchy:
+
+- **Vehicle (Abstract Class):** Represents a generic vehicle. It contains common attributes and methods shared by all types of vehicles, such as `no_of_persons`, `total_toll`, `basic_toll`, and the abstract method `callToll()`.
+- **TwoWheeler (Class):** Represents a two-wheeler vehicle.
+- **ThreeWheeler (Class):** Represents a three-wheeler vehicle.
+- **FourWheeler (Class):** Represents a four-wheeler vehicle.
+- **HeavyVehicle (Class):** Represents a heavy vehicle.
+
 - **Vehicle:** An abstract class serving as the base class for all vehicle types.
 - **TwoWheeler:** Represents a two-wheeler vehicle.
 - **ThreeWheeler:** Represents a three-wheeler vehicle.
