@@ -38,6 +38,11 @@ How many number of persons: 2
 Total toll is: 20
 ```
 
+## Technologies Used
+
+- Core Java
+- Object-Oriented Programming (OOP)
+
 ## Contributing
 
 Contributions to this project are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
