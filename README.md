@@ -8,7 +8,7 @@ This Java project implements a toll calculator system using object-oriented prog
 The toll calculator system allows users to calculate toll charges based on the type of vehicle and the number of passengers it carries. It provides a flexible and extensible framework for adding new vehicle types and calculating toll charges according to specific criteria.
 
 
-# Vehicle Hierarchy
+### Vehicle Hierarchy
 
 - **Vehicle** (Abstract Class)
   - `no_of_persons: int`
