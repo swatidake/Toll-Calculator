@@ -1,5 +1,3 @@
-# Toll-Calculator
-Toll Calculator : A Core Java-based system for calculating toll fees for vehicles passing through specific locations.
 
 # Toll Calculator
 
@@ -39,6 +37,16 @@ The toll calculator system allows users to calculate toll charges based on the t
 ## Object-Oriented Design
 
 The project follows an object-oriented design approach, with the following key components:
+
+# Vehicle Hierarchy
+
+The project defines a hierarchy of vehicle classes, with each class representing a specific type of vehicle. The hierarchy is as follows:
+
+- **Vehicle:** An abstract class serving as the base class for all vehicle types.
+- **TwoWheeler:** Represents a two-wheeler vehicle.
+- **ThreeWheeler:** Represents a three-wheeler vehicle.
+- **FourWheeler:** Represents a four-wheeler vehicle.
+- **HeavyVehicle:** Represents a heavy vehicle.
 
 - **Vehicle Class**: An abstract class representing a generic vehicle, with attributes such as the number of persons and toll charges.
 - **Concrete Vehicle Classes**: Subclasses of the Vehicle class representing different types of vehicles, such as TwoWheeler, ThreeWheeler, FourWheeler, and HeavyVehicle.
