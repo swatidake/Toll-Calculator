@@ -9,7 +9,12 @@ The toll calculator system allows users to calculate toll charges based on the t
 
 ## Object-Oriented Design
 
-The project follows an object-oriented design approach, with the following key components:
+The project follows an object-oriented design approach, with the following key components.
+
+- **Vehicle Class**: An abstract class representing a generic vehicle, with attributes such as the number of persons and toll charges.
+- **Concrete Vehicle Classes**: Subclasses of the Vehicle class representing different types of vehicles, such as TwoWheeler, ThreeWheeler, FourWheeler, and HeavyVehicle.
+- **Main Class**: The Main class serves as the entry point to the program, allowing users to select a vehicle type and input the number of persons to calculate the toll charges.
+
 
 ### Vehicle Hierarchy
 
@@ -22,16 +27,6 @@ In this hierarchy:
 - **ThreeWheeler (Class):** Represents a three-wheeler vehicle.
 - **FourWheeler (Class):** Represents a four-wheeler vehicle.
 - **HeavyVehicle (Class):** Represents a heavy vehicle.
-
-- **Vehicle:** An abstract class serving as the base class for all vehicle types.
-- **TwoWheeler:** Represents a two-wheeler vehicle.
-- **ThreeWheeler:** Represents a three-wheeler vehicle.
-- **FourWheeler:** Represents a four-wheeler vehicle.
-- **HeavyVehicle:** Represents a heavy vehicle.
-
-- **Vehicle Class**: An abstract class representing a generic vehicle, with attributes such as the number of persons and toll charges.
-- **Concrete Vehicle Classes**: Subclasses of the Vehicle class representing different types of vehicles, such as TwoWheeler, ThreeWheeler, FourWheeler, and HeavyVehicle.
-- **Main Class**: The Main class serves as the entry point to the program, allowing users to select a vehicle type and input the number of persons to calculate the toll charges.
 
 ## Usage
 
