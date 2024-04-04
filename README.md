@@ -20,15 +20,11 @@ The project follows an object-oriented design approach, with the following key c
 
 The project defines a hierarchy of vehicle classes, with each class representing a specific type of vehicle. The hierarchy is as follows:
 
-Vehicle (Abstract Class)
-│
-├── TwoWheeler (Class)
-│
-├── ThreeWheeler (Class)
-│
-├── FourWheeler (Class)
-│
-└── HeavyVehicle (Class)
+- Vehicle (Abstract Class)
+  - TwoWheeler (Class)
+  - ThreeWheeler (Class)
+  - FourWheeler (Class)
+  - HeavyVehicle (Class)
 
 In this hierarchy:
 
